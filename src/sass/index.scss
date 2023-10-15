@@ -32,7 +32,7 @@ button {
   align-self: center;
 }
 .search-form {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -118,4 +118,11 @@ button {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+#end-indication {
+  color: #f5c971;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Kristi', cursive;
 }

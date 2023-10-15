@@ -29,7 +29,7 @@ button {
 }
 
 .search-form {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -115,4 +115,11 @@ button:hover {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#end-indication {
+  color: #f5c971;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Kristi", cursive;
 }

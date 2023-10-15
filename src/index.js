@@ -51,7 +51,9 @@ function fetchImages() {
         loadMoreBtn.hide();
       } else {
         loadMoreBtn.enable();
-        Notify.success(`${totalHits} images matching your search were found.`);
+        Notify.success(
+          `${totalHits}+ images matching your search were found. Press 'Load more' to see all of them`
+        );
       }
     })
     .catch(handleError);
