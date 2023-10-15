@@ -2,17 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/common.min.css" />
-    <title>Homework 10</title>
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/index.min.css" />
   </head>
-  <body class="body">
-    <select class="breed-select"></select>
-    <span class="body__loader"></span>
-    <p class="body__error">
-      Error! Please make sure you are connected to the internet.
-    </p>
-    <div class="cat-info"></div>
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        class="input-search"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search key..."
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="gallery"></div>
+
+    <button type="button" class="load-more">
+      <span class="label">Load more</span>
+    </button>
 
     <script src="./index.js" type="module"></script>
   </body>
